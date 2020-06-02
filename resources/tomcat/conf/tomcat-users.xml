@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcat-users>
+	<role rolename="AllAuth"/>
+	<role rolename="KDU.CASSR_READ"/>
+	<role rolename="KDU.CASSR_WRITE"/>
+	<role rolename="KDU.CASSR_SUPPORT"/>
+	<user username="cassr_r" password="password" roles="AllAuth,KDU.CASSR_READ"/>
+	<user username="cassr_w" password="password" roles="AllAuth,KDU.CASSR_WRITE"/>
+	<user username="cassr_s" password="password" roles="AllAuth,KDU.CASSR_SUPPORT"/>
+	<user username="cassr_rs" password="password" roles="AllAuth,KDU.CASSR_READ,KDU.CASSR_SUPPORT"/>
+	<user username="cassr_ws" password="password" roles="AllAuth,KDU.CASSR_WRITE,KDU.CASSR_SUPPORT"/>
+</tomcat-users>
